@@ -1,0 +1,52 @@
+.container {
+    margin-top: 10px;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+  margin-left: 500px;
+    width: 300px;
+    background-color: #3c1743;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .data-table {
+    margin-top: 20px;
+  }
+  
+  .action-buttons button {
+    margin-right: 5px;
+  }
+
+  .button{
+    display: flex;
+    background-color: pink !important;
+    align-items: center;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
+  
